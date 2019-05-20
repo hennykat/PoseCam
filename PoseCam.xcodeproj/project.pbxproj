@@ -14,6 +14,7 @@
 		B43F78BF229229B700389577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43F78BD229229B700389577 /* LaunchScreen.storyboard */; };
 		B43F78CA229229B700389577 /* PoseCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F78C9229229B700389577 /* PoseCamTests.swift */; };
 		B43F78D5229229B700389577 /* PoseCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F78D4229229B700389577 /* PoseCamUITests.swift */; };
+		B4FBB0AB22924C6B00C45DFC /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FBB0AA22924C6B00C45DFC /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B43F78D0229229B700389577 /* PoseCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoseCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43F78D4229229B700389577 /* PoseCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseCamUITests.swift; sourceTree = "<group>"; };
 		B43F78D6229229B700389577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4FBB0AA22924C6B00C45DFC /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +99,9 @@
 		B43F78B3229229B600389577 /* PoseCam */ = {
 			isa = PBXGroup;
 			children = (
+				B4FBB0AC22924C7100C45DFC /* UI */,
 				B43F78B4229229B600389577 /* AppDelegate.swift */,
-				B43F78B6229229B600389577 /* ViewController.swift */,
-				B43F78B8229229B600389577 /* Main.storyboard */,
 				B43F78BB229229B700389577 /* Assets.xcassets */,
-				B43F78BD229229B700389577 /* LaunchScreen.storyboard */,
 				B43F78C0229229B700389577 /* Info.plist */,
 			);
 			path = PoseCam;
@@ -123,6 +123,17 @@
 				B43F78D6229229B700389577 /* Info.plist */,
 			);
 			path = PoseCamUITests;
+			sourceTree = "<group>";
+		};
+		B4FBB0AC22924C7100C45DFC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B43F78B6229229B600389577 /* ViewController.swift */,
+				B4FBB0AA22924C6B00C45DFC /* CameraViewController.swift */,
+				B43F78BD229229B700389577 /* LaunchScreen.storyboard */,
+				B43F78B8229229B600389577 /* Main.storyboard */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			files = (
 				B43F78B7229229B600389577 /* ViewController.swift in Sources */,
 				B43F78B5229229B600389577 /* AppDelegate.swift in Sources */,
+				B4FBB0AB22924C6B00C45DFC /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
