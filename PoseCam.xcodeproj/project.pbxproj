@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B43F78B5229229B600389577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F78B4229229B600389577 /* AppDelegate.swift */; };
+		B43F78B7229229B600389577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F78B6229229B600389577 /* ViewController.swift */; };
+		B43F78BA229229B600389577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43F78B8229229B600389577 /* Main.storyboard */; };
+		B43F78BC229229B700389577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43F78BB229229B700389577 /* Assets.xcassets */; };
+		B43F78BF229229B700389577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43F78BD229229B700389577 /* LaunchScreen.storyboard */; };
+		B43F78CA229229B700389577 /* PoseCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F78C9229229B700389577 /* PoseCamTests.swift */; };
+		B43F78D5229229B700389577 /* PoseCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43F78D4229229B700389577 /* PoseCamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B43F78C6229229B700389577 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43F78A9229229B600389577 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43F78B0229229B600389577;
+			remoteInfo = PoseCam;
+		};
+		B43F78D1229229B700389577 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B43F78A9229229B600389577 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B43F78B0229229B600389577;
+			remoteInfo = PoseCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B43F78B1229229B600389577 /* PoseCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoseCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43F78B4229229B600389577 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B43F78B6229229B600389577 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B43F78B9229229B600389577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B43F78BB229229B700389577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B43F78BE229229B700389577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B43F78C0229229B700389577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43F78C5229229B700389577 /* PoseCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoseCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43F78C9229229B700389577 /* PoseCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseCamTests.swift; sourceTree = "<group>"; };
+		B43F78CB229229B700389577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43F78D0229229B700389577 /* PoseCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoseCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43F78D4229229B700389577 /* PoseCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseCamUITests.swift; sourceTree = "<group>"; };
+		B43F78D6229229B700389577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B43F78AE229229B600389577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43F78C2229229B700389577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43F78CD229229B700389577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B43F78A8229229B600389577 = {
+			isa = PBXGroup;
+			children = (
+				B43F78B3229229B600389577 /* PoseCam */,
+				B43F78C8229229B700389577 /* PoseCamTests */,
+				B43F78D3229229B700389577 /* PoseCamUITests */,
+				B43F78B2229229B600389577 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B43F78B2229229B600389577 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B43F78B1229229B600389577 /* PoseCam.app */,
+				B43F78C5229229B700389577 /* PoseCamTests.xctest */,
+				B43F78D0229229B700389577 /* PoseCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B43F78B3229229B600389577 /* PoseCam */ = {
+			isa = PBXGroup;
+			children = (
+				B43F78B4229229B600389577 /* AppDelegate.swift */,
+				B43F78B6229229B600389577 /* ViewController.swift */,
+				B43F78B8229229B600389577 /* Main.storyboard */,
+				B43F78BB229229B700389577 /* Assets.xcassets */,
+				B43F78BD229229B700389577 /* LaunchScreen.storyboard */,
+				B43F78C0229229B700389577 /* Info.plist */,
+			);
+			path = PoseCam;
+			sourceTree = "<group>";
+		};
+		B43F78C8229229B700389577 /* PoseCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				B43F78C9229229B700389577 /* PoseCamTests.swift */,
+				B43F78CB229229B700389577 /* Info.plist */,
+			);
+			path = PoseCamTests;
+			sourceTree = "<group>";
+		};
+		B43F78D3229229B700389577 /* PoseCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B43F78D4229229B700389577 /* PoseCamUITests.swift */,
+				B43F78D6229229B700389577 /* Info.plist */,
+			);
+			path = PoseCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B43F78B0229229B600389577 /* PoseCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43F78D9229229B700389577 /* Build configuration list for PBXNativeTarget "PoseCam" */;
+			buildPhases = (
+				B43F78AD229229B600389577 /* Sources */,
+				B43F78AE229229B600389577 /* Frameworks */,
+				B43F78AF229229B600389577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoseCam;
+			productName = PoseCam;
+			productReference = B43F78B1229229B600389577 /* PoseCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B43F78C4229229B700389577 /* PoseCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43F78DC229229B700389577 /* Build configuration list for PBXNativeTarget "PoseCamTests" */;
+			buildPhases = (
+				B43F78C1229229B700389577 /* Sources */,
+				B43F78C2229229B700389577 /* Frameworks */,
+				B43F78C3229229B700389577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43F78C7229229B700389577 /* PBXTargetDependency */,
+			);
+			name = PoseCamTests;
+			productName = PoseCamTests;
+			productReference = B43F78C5229229B700389577 /* PoseCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B43F78CF229229B700389577 /* PoseCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43F78DF229229B700389577 /* Build configuration list for PBXNativeTarget "PoseCamUITests" */;
+			buildPhases = (
+				B43F78CC229229B700389577 /* Sources */,
+				B43F78CD229229B700389577 /* Frameworks */,
+				B43F78CE229229B700389577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B43F78D2229229B700389577 /* PBXTargetDependency */,
+			);
+			name = PoseCamUITests;
+			productName = PoseCamUITests;
+			productReference = B43F78D0229229B700389577 /* PoseCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B43F78A9229229B600389577 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = hennykat;
+				TargetAttributes = {
+					B43F78B0229229B600389577 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					B43F78C4229229B700389577 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = B43F78B0229229B600389577;
+					};
+					B43F78CF229229B700389577 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = B43F78B0229229B600389577;
+					};
+				};
+			};
+			buildConfigurationList = B43F78AC229229B600389577 /* Build configuration list for PBXProject "PoseCam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B43F78A8229229B600389577;
+			productRefGroup = B43F78B2229229B600389577 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B43F78B0229229B600389577 /* PoseCam */,
+				B43F78C4229229B700389577 /* PoseCamTests */,
+				B43F78CF229229B700389577 /* PoseCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B43F78AF229229B600389577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43F78BF229229B700389577 /* LaunchScreen.storyboard in Resources */,
+				B43F78BC229229B700389577 /* Assets.xcassets in Resources */,
+				B43F78BA229229B600389577 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43F78C3229229B700389577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43F78CE229229B700389577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B43F78AD229229B600389577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43F78B7229229B600389577 /* ViewController.swift in Sources */,
+				B43F78B5229229B600389577 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43F78C1229229B700389577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43F78CA229229B700389577 /* PoseCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B43F78CC229229B700389577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43F78D5229229B700389577 /* PoseCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B43F78C7229229B700389577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43F78B0229229B600389577 /* PoseCam */;
+			targetProxy = B43F78C6229229B700389577 /* PBXContainerItemProxy */;
+		};
+		B43F78D2229229B700389577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B43F78B0229229B600389577 /* PoseCam */;
+			targetProxy = B43F78D1229229B700389577 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B43F78B8229229B600389577 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43F78B9229229B600389577 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B43F78BD229229B700389577 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B43F78BE229229B700389577 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B43F78D7229229B700389577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B43F78D8229229B700389577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B43F78DA229229B700389577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V68M7C59W8;
+				INFOPLIST_FILE = PoseCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hennykat.PoseCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B43F78DB229229B700389577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V68M7C59W8;
+				INFOPLIST_FILE = PoseCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hennykat.PoseCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B43F78DD229229B700389577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V68M7C59W8;
+				INFOPLIST_FILE = PoseCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hennykat.PoseCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoseCam.app/PoseCam";
+			};
+			name = Debug;
+		};
+		B43F78DE229229B700389577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V68M7C59W8;
+				INFOPLIST_FILE = PoseCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hennykat.PoseCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PoseCam.app/PoseCam";
+			};
+			name = Release;
+		};
+		B43F78E0229229B700389577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V68M7C59W8;
+				INFOPLIST_FILE = PoseCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hennykat.PoseCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoseCam;
+			};
+			name = Debug;
+		};
+		B43F78E1229229B700389577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V68M7C59W8;
+				INFOPLIST_FILE = PoseCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hennykat.PoseCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PoseCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B43F78AC229229B600389577 /* Build configuration list for PBXProject "PoseCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43F78D7229229B700389577 /* Debug */,
+				B43F78D8229229B700389577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43F78D9229229B700389577 /* Build configuration list for PBXNativeTarget "PoseCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43F78DA229229B700389577 /* Debug */,
+				B43F78DB229229B700389577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43F78DC229229B700389577 /* Build configuration list for PBXNativeTarget "PoseCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43F78DD229229B700389577 /* Debug */,
+				B43F78DE229229B700389577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43F78DF229229B700389577 /* Build configuration list for PBXNativeTarget "PoseCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B43F78E0229229B700389577 /* Debug */,
+				B43F78E1229229B700389577 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B43F78A9229229B600389577 /* Project object */;
+}
