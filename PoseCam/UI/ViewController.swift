@@ -12,24 +12,23 @@ import AVFoundation
 class ViewController: UIViewController {
 
     @IBAction func cameraButtonTapped(_ sender: Any) {
-        
         switch AVCaptureDevice.authorizationStatus(for: .video) {
         case .authorized:
             showCameraScreen()
         case .notDetermined:
             AVCaptureDevice.requestAccess(for: .video) { granted in
-                if granted {
-                    self.showCameraScreen()
-                } else {
-                    print("not granted")
-                    // direct user to settings
+                DispatchQueue.main.async {
+                    if granted {
+                        self.showCameraScreen()
+                    } else {
+                        self.requestAllowingCameraInSettings()
+                    }
                 }
             }
         case .denied:
-            print("denied")
-            // direct user to settings
+            self.requestAllowingCameraInSettings()
         default:
-            print("unknown")
+            fatalError("Failed to request camera auth")
         }
     }
     
@@ -37,7 +36,23 @@ class ViewController: UIViewController {
         let viewController = UIStoryboard(
             name: "Main",
             bundle: nil).instantiateViewController(withIdentifier: "CameraViewController")
-        present(viewController, animated: true, completion: nil)
+        self.present(viewController, animated: true, completion: nil)
     }
     
+    func requestAllowingCameraInSettings() {
+        let alertController = UIAlertController(
+            title: "Camera Use Is Required",
+            message: "Enable in Settings",
+            preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Cancel", style: .default))
+        alertController.addAction(UIAlertAction(title: "Settings", style: .cancel) { _ in
+            if let url = URL(string: UIApplication.openSettingsURLString) {
+                UIApplication.shared.open(url, options: [:], completionHandler: { _ in
+                    // Handle
+                })
+            }
+        })
+        
+        present(alertController, animated: true)
+    }
 }
